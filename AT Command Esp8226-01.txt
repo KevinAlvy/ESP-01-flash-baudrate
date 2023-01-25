@@ -1,0 +1,36 @@
+Perintah dibawah ini digunakan untuk mengecek modul tersebut berjalan
+AT
+
+Perintah dibawah ini digunakan untuk mereset modul
+AT+RST
+
+Perintah dibawah ini digunakan untuk Melihat versi modul
+AT+GMR
+
+Perintah dibawah ini digunakan untuk Melihat wifi yang tersedia
+AT+CWLAP
+
+Perintah dibawah ini digunakan untuk Connect ke access point
+AT+CWJAP="namawifi","passwordwifi"
+
+Perintah dibawah ini digunakan untuk Disconnect ke access point
+AT+CWQAP
+
+Perintah dibawah ini digunakan untuk mengecek IP Address
+AT+CIFSR
+
+Perintah dibawah ini digunakan untuk Membuat Access Point
+AT+CWSAP="namahotspot","password",1,2
+
+Perintah dibawah ini digunakan untuk merubah BaudRate (tidak Permanent/restart ilang)
+AT+CIOBAUD=9600
+
+Perintah dibawah ini digunakan untuk merubah BaudRate (PERMANENT)
+AT+UART_DEF=9600,8,1,0,0
+
+Perintah dibawah ini digunakan untuk merubah mode modul
+AT+CWMODE=1
+Keterangan :
+1 : Station mode
+2 : Access Point Mode
+3 : Both Mode
